@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Comp2000-Software-Engineering-Coursework</string>
+    <string name="app_name">TimeTabling Employees</string>
+    <string name="available_between_7_00_21_00">Available Between : 7:00 - 21:00</string>
+    <string name="room_100">Room 100</string>
+    <string name="select_room">Select Room</string>
+    <string name="select_the_room_from_below_demo_so_only_top_works">Select The Room From Below (DEMO so only top works)</string>
+    <string name="time_slot_11_00_13_00">Time Slot: 11:00 - 13:00</string>
+    <string name="edit">Edit</string>
+    <string name="cancel_reservation">Cancel Reservation</string>
 </resources>
