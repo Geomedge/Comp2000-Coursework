@@ -29,6 +29,15 @@
             android:name=".Booking"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".TimeSlot"
+            android:exported="false"
+            android:theme="@style/Theme.Comp2000SoftwareEngineeringCoursework"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Confirmation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

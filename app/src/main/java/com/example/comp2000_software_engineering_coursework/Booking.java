@@ -1,7 +1,8 @@
 package com.example.comp2000_software_engineering_coursework;
 
+import android.content.Intent;
 import android.os.Bundle;
-
+import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -21,4 +22,10 @@ public class Booking extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void launchTimeSlotActivity(View view) {
+        Intent intent = new Intent(Booking.this, TimeSlot.class);
+        startActivity(intent);
+    }
+
 }
